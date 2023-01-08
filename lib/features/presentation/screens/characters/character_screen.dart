@@ -72,8 +72,9 @@ class _CharacterScreenState extends State<CharacterScreen> {
                   return state.when(
                     initial: (characters) => const Center(
                         child: Text('Initial State, Pleace await 1 minute')),
-                    loading: (characters) => const Center(
-                      child: Text('BRRR Error'),
+                    loading: (characters) => const Align(
+                      alignment: Alignment.bottomCenter,
+                      child: CircularProgressIndicator(),
                     ),
                     error: (error) => SingleChildScrollView(
                       child: Column(

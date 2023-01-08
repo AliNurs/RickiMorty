@@ -5,8 +5,7 @@ import 'package:try_ricki_2/config/l10n/generated/l10n.dart';
 import 'package:try_ricki_2/config/language/language_provider.dart';
 import 'package:try_ricki_2/config/theme/app_theme.dart';
 import 'package:try_ricki_2/config/theme/theme_provider.dart';
-import 'package:try_ricki_2/features/presentation/screens/splash/splash_screen.dart';
-
+import 'package:try_ricki_2/features/presentation/screens/splash_screen/splash_screen.dart';
 
 import 'package:try_ricki_2/service_locator.dart' as di;
 

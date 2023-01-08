@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:try_ricki_2/config/theme/app_theme.dart';
 import 'package:try_ricki_2/service_locator.dart';
-import 'package:try_ricki_2/theme/app_theme.dart';
 
 enum ThemeModes { light, dark }
 

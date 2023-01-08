@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:try_ricki_2/theme/app_text_styles.dart';
+import 'package:try_ricki_2/config/theme/app_text_styles.dart';
+
 part 'app_colors.dart';
 
 abstract class AppTheme {

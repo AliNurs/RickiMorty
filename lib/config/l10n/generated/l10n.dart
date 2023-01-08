@@ -1,8 +1,8 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:try_ricki_2/l10n/generated/intl/messages_all.dart';
-
+import 'package:try_ricki_2/config/l10n/generated/intl/messages_all.dart';
+// import 'package:try_ricki_2/l10n/generated/intl/messages_all.dart';
 
 // **************************************************************************
 // Generator: Flutter Intl IDE plugin

@@ -1,8 +1,10 @@
 // ignore_for_file: use_build_context_synchronously
 
 import 'package:flutter/material.dart';
-import 'package:try_ricki_2/features/presentation/bottom_nav_screen.dart';
-import 'package:try_ricki_2/features/presentation/screens/splash/widgets/star_frame.dart';
+
+import 'package:try_ricki_2/features/presentation/screens/home_screen/home_screen.dart';
+
+import 'package:try_ricki_2/features/presentation/screens/splash_screen/widgets/star_frame.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -33,8 +35,8 @@ class _SplashScreenState extends State<SplashScreen>
       const Duration(seconds: 2),
     );
 
-    Navigator.push(context,
-        MaterialPageRoute(builder: (context) => const BottomNavScreen()));
+    Navigator.push(
+        context, MaterialPageRoute(builder: (context) => const HomeScreen()));
   }
 
   @override

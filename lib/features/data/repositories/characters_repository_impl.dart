@@ -3,9 +3,9 @@ import 'dart:io';
 
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
+import 'package:try_ricki_2/core/errors/failures.dart';
+import 'package:try_ricki_2/core/errors/server_exeption.dart';
 
-import 'package:try_ricki_2/core/failures.dart';
-import 'package:try_ricki_2/core/server_exeption.dart';
 import 'package:try_ricki_2/features/data/models/characters_model.dart';
 import 'package:try_ricki_2/features/domain/repositories/characters_network_data.dart';
 import 'package:try_ricki_2/features/domain/repositories/characters_repository.dart';
