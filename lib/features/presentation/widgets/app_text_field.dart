@@ -15,7 +15,7 @@ import 'package:try_ricki_2/utils/extentions/extension.dart';
 
 // ignore: must_be_immutable
 class AppTextField extends StatelessWidget {
-  AppTextField({
+  const AppTextField({
     Key? key,
     required this.hintText,
     required this.onChanged,

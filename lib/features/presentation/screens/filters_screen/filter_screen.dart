@@ -50,7 +50,7 @@ class _FilterScreenState extends State<FilterScreen> {
           ),
           onPressed: () {
             Navigator.pop(context, widget.bf);
-            log('${widget.bf}');
+            log(widget.bf);
           },
         ),
         actions: [
